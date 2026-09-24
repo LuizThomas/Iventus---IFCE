@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  .print\:hidden {
+    display: none !important;
+  }
+  div[ref="printRef"],
+  div[ref="printRef"] * {
+    visibility: visible;
+  }
+  div[class*="CertificateModal"] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-shadow: none !important;
+    background: transparent !important;
+  }
+}

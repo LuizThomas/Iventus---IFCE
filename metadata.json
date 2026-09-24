@@ -1,0 +1,6 @@
+{
+  "name": "IFCE Iventus - Plataforma de Gestão de Eventos Científicos",
+  "description": "Sistema completo para gerenciamento de eventos científicos, inscrições, frequência, certificados e relatórios do IFCE.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
